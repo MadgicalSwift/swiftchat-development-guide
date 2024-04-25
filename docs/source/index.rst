@@ -94,13 +94,12 @@ This documentation will guide you with chatbot development basics and will teach
 
       api_reference.rst
       analytics.rst
-
+   
   .. toctree::
-      :caption: FAQs
+      :caption: Template
       :hidden:
 
-      api.rst
-   
+      template_api.rst
 
   .. toctree::
       :caption: resources
@@ -108,18 +107,11 @@ This documentation will guide you with chatbot development basics and will teach
 
       resources.rst
 
-   .. toctree::
-      :caption: Templates
-
-      template_api.rst
-
-
   .. toctree::
-      :caption: Template
+      :caption: FAQs
       :hidden:
 
-      template_api.rst
-
+      api.rst
 
   .. toctree::
       :caption: Conclusion
@@ -127,3 +119,8 @@ This documentation will guide you with chatbot development basics and will teach
 
       conclusion.rst
 
+  .. toctree::
+      :caption: Cost Optimization
+      :hidden:
+
+      cost_optimization.rst
