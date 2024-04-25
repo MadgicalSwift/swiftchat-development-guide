@@ -43,7 +43,7 @@ You may any framework to build your backend. To quick start, we've created a `Ch
 
 4. Host the bot locally using ngrok
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-You can either publish this application on various cloud services like Heroku, Firebase, AWS, etc. or you can try NGRok which will create a reverse proxy for your locally hosted bot. Follow the instructions from the NGRok official website to generate a URL for your locally running bot application. Once the URL is generated, set this URL as a webhook URL on the Swiftchat dashboard of your bot.
+You can either publish this application on various cloud services like Heroku, Firebase, AWS, etc. or you can try NGRok which will create a reverse proxy for your locally hosted bot. Follow the instructions from the `NGRok official website <https://ngrok.com/docs/getting-started/>`_ to generate a URL for your locally running bot application. Once the URL is generated, set this URL as a webhook URL on the Swiftchat dashboard of your bot.
 
 Your bot is now ready, you can test it by visiting the bot URL and saying "hi". It'll print a welcome message as configured in the Chatbot Starter Kit. Now it's up to you, how you want to customize it.
 
