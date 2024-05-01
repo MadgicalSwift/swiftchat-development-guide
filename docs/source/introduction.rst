@@ -1,3 +1,6 @@
+Introduction
+===============
+
 .. image:: ../images/introduction_images/swiftchat.png
       :alt: introduction 
       :width: 1200
@@ -6,16 +9,16 @@
 This documentation will guide you to develop and publish your bots on Swiftchat, an indigenous and versatile platform to connect to a wide variety of audiences through chatbots. In this documentation guide, we'll provide you with the starter kit, code samples, and best practices, which will help you to develop new experiences for your audience.
 
 SwiftChat 
-====================
+----------
 SwiftChat, developed by ConveGenius Digital India Pvt Services Ltd, is a versatile platform for building, using, and discovering chatbots. Leveraging conversational interfaces, enables businesses, governments, and other entities to engage with consumers effectively. With its user and developer-focused components, SwiftChat offers a comprehensive solution for creating and deploying chatbots. The recent v2 release enhances discoverability, expands bot capabilities, and provides APIs for businesses, positioning SwiftChat as a pivotal tool for fostering customer-centric interactions and connection-building.
 
 Why to choose SwiftChat?
-=========================
+------------------------
 SwiftChat platform enables you to connect with thousands of users by creating a seamless digital presence without requiring users to install a separate application. The emerging platform currently serves over 200 million users from over 15 Indian States. It's a great opportunity to gain exposure to such a huge audience at an early stage to stay ahead of the competition. It has a richer User experience as compared to other messaging platforms such as WhatsApp, Telegram, X, etc. which will help to engage the audience with a wide variety of options.
 
 
 Key Features of SwiftChat
-=========================
+-------------------------
 
 #. **Supports a Wide Variety of Messages:**
    
@@ -39,7 +42,7 @@ Read more about these key features in detail: `here <https://swiftchat.ai/swiftc
 
 
 Prerequiste
-===========
+-----------
 Before diving into developing and publishing bots on SwiftChat, ensure you have the following prerequisites:
 
 1. **SwiftChat Merchant Account:** You'll need a SwiftChat merchant account to access the platform's features and resources. Sign up for an account to get started with building and deploying your bots.
@@ -58,7 +61,7 @@ By meeting these prerequisites, you'll be better equipped to leverage the SwiftC
 
 
 Use Cases 
-=========
+---------
 There are plenty of use cases where you can create your own bots such as:
 
 #. News Bots
@@ -70,86 +73,21 @@ There are plenty of use cases where you can create your own bots such as:
 #. Games, etc.
 
 Demo Bots
-=========
+---------
 Explore our demo bots to get a glimpse of the engaging experiences you can create using SwiftChat:
 
 1. `Kabhri Media Bot <https://web.convegenius.ai/bots?botId=0206680915033769>`_ : Stay updated with the latest news and headlines with the Kabhri Media Bot. Get real-time news alerts, top stories, and in-depth articles delivered directly to your SwiftChat inbox.
 
-2. `Ramayan Bot <https://web.convegenius.ai/bots?botId=0240383727772053>`_:** Immerse yourself in the epic tale of Ramayan with the Ramayan Bot. Experience the timeless saga of Lord Rama, Sita, and Hanuman through interactive storytelling, quizzes, and rich multimedia content.
+2. `Ramayan Bot <https://web.convegenius.ai/bots?botId=0240383727772053>`_: Immerse yourself in the epic tale of Ramayan with the Ramayan Bot. Experience the timeless saga of Lord Rama, Sita, and Hanuman through interactive storytelling, quizzes, and rich multimedia content.
 
-3. `Bhagwad Gita Bot <https://web.convegenius.ai/bots?botId=0244938234521311>`_:** Delve into the spiritual teachings of the Bhagwad Gita with the Bhagwad Gita Bot. Receive daily verses, profound insights, and guided meditation sessions to nurture your spiritual journey.
+3. `Bhagwad Gita Bot <https://web.convegenius.ai/bots?botId=0244938234521311>`_: Delve into the spiritual teachings of the Bhagwad Gita with the Bhagwad Gita Bot. Receive daily verses, profound insights, and guided meditation sessions to nurture your spiritual journey.
 
 These demo bots showcase the versatility and capabilities of the SwiftChat platform, offering users unique and immersive experiences tailored to their interests. Experience the future of chatbot interactions with SwiftChat today!
 
 
 What You Will Achieve?
-======================
+----------------------
 By following this documentation, you will:
 
 1. Gain a solid understanding of chatbot development basics.
 2. Learn how to create and deploy your first chatbot onto SwiftChat.
-.. only:: not index 
-   
-   .. toctree::
-      :maxdepth: 1
-      :hidden:
-
-      introduction.rst
-
-   .. toctree::
-      :maxdepth: 1
-      :caption: Get Started
-      :hidden:
-      
-      start_with_swiftchat.rst
-      bot_development_basic.rst
-      hello_world.rst
-   
-   .. toctree::
-      :caption: Advanced Bot Development
-      :hidden:
-      
-      bot_development_blueprint
-      advance_bot.rst
-      media_support.rst
-      cost_optimization.rst
-      vector_database.rst
-      analytics.rst
-   
-   .. toctree::
-      :caption: Bot Deployement
-      :hidden:
-
-      deploy.rst
-      version_control.rst
-   
-   .. toctree::
-      :caption: api reference
-      :hidden:
-
-      api_reference.rst
-      
-   
-  .. toctree::
-      :caption: Template
-      :hidden:
-
-      template_api.rst
-
-  .. toctree::
-      :caption: resources
-      :hidden:
-
-      resources.rst
-
-  .. toctree::
-      :caption: FAQs
-      :hidden:
-
-      api.rst
-
-  .. toctree::
-      :caption: Conclusion
-      :hidden:
-
-      conclusion.rst     
