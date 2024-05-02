@@ -75,41 +75,31 @@ Creating a Bot Using the SwiftChat API
 
 The SwiftChat APIs act as the conduit between your chatbot and yourself, processing your data accordingly. 
 
-You can employ any tool or platform to interact with the SwiftChat APIs. In this instance, we'll demonstrate using **Postman**.
+You can employ any tool or platform to interact with the SwiftChat APIs. In this instance, we'll demonstrate using curl.
 
 **Steps**
 
-1. Open Postman or any other API Platform
-2. Create a new **POST** request
-3. Add this API ``https://v1-api.swiftchat.ai/api/bots`` in the url section
-4. Open the authorization section and here add your API key that we generated or got in `Obtaining API Key <get_api_key.html>`_
-   
-   .. image:: ../images/create_bot_images/create_bot_auth.png
-      :alt: Deployment Structure
-      :width: 1300
-      :height: 300
-      :align: center
-   
+1. Open your terminal or command prompt. If you don't have curl installed, you can install it using npm by running the ``npm install -g curl`` command in your terminal
+2. Create a new **POST** request using curl
+3. Use the following API endpoint:``https://v1-api.swiftchat.ai/api/bots`` 
+4. Include your API key in the header that you obtained during `Obtaining API Key <get_api_key.html>`_ 
+5. In the body, include details such as bot-name, mobile-number, and bot-category
+6. Add the header and the body to your curl request::
+ 
+      curl --location 'https://v1-api.swiftchat.ai/api/bots' \
+       --header "Content-Type: application/json" \
+       --header "Authorization: Bearer YOUR_API_KEY_HERE" \
+       --data '{
+           "mobile": "+91XXXXXXXXXX",
+           "configuration": {
+           "name": "Test"
+           "category":"Education"
+          }
+      }'
 
-5. Now move to **Body** tab, and add details like, bot-name, mobile-number, and bot-category.
+7. On successfully creating bot you will receive a message indicating **created**.
 
-   .. image:: ../images/create_bot_images/create_bot_body.png
-      :alt: Deployment Structure
-      :width: 1300
-      :height: 300
-      :align: center
-
-
-6. On successfully creating bot you will receive a message **created** and status code **OK**
-
-   .. image:: ../images/create_bot_images/successful_bot.png
-      :alt: Deployment Structure
-      :width: 1300
-      :height: 100
-      :align: center
-
-
-7. After creating bot, use the `**varify API** <https://documenter.getpostman.com/view/20587790/UyrGCuhH#a5fa0876-d1b1-48de-a475-dad2ff467071>`_ and varify your bot. This will generate the bot ID.
+8. After creating bot, use the `**varify API** <https://documenter.getpostman.com/view/20587790/UyrGCuhH#a5fa0876-d1b1-48de-a475-dad2ff467071>`_  to generate the bot ID.
 
 
 Creating a Bot Using the SwiftChat Dashboard
