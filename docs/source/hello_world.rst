@@ -67,6 +67,7 @@ This command tells ngrok to start a tunnel session on port 3000 (assuming your b
       :width: 2000
       :height: 200
       :align: left
+      
    5. Send the request. This will update the webhook URL for your bot to the ngrok forwarding URL.
  
  **Using curl (Command Line):**

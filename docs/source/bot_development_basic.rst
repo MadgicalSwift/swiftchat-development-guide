@@ -93,10 +93,10 @@ To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
    - Click the "Fork" button located in the upper right corner of the repository page, and optionally rename the repository according to your preference. A recommended naming convention is **`<application name>-swift-chatbot`**. This action will generate a duplicate of the repository under your GitHub account.
 
    .. image:: ../images/create_bot_images/fork_image.png
-   :alt: Create Fork Image
-   :width: 2000
-   :height: 250
-   :align: center
+     :alt: Create Fork Image
+     :width: 2000
+     :height: 250
+     :align: center
 
 3. **Clone the Repository:**
    
@@ -105,10 +105,10 @@ To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
     ``git clone <Forked Repository Code>``
 
      .. image:: ../images/create_bot_images/clone-id.png
-   :alt: Forked Repository Code
-   :width: 2000
-   :height: 250
-   :align: center
+      :alt: Forked Repository Code
+      :width: 2000
+      :height: 250
+      :align: center
 
    - Following the cloning process, proceed to install dependencies by running following commands: 
   
