@@ -45,14 +45,15 @@ You may any framework to build your backend. To quick start, we've created a `Ch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 You can either publish this application on various cloud services like Heroku, Firebase, AWS, etc. or you can try NGRok which will create a reverse proxy for your locally hosted bot. 
 To use Ngrok,
-  1. First, download ngrok from the `NGRok official website <https://ngrok.com/download>`_ 
-  2. Open a terminal or command prompt and Navigate to the directory where ngrok is installed or accessible.
-  3. To expose your locally hosted bot application to the internet, run the following command :  ``ngrok http 3000``
+
+  - First, download ngrok from the `NGRok official website <https://ngrok.com/download>`_ 
+  - Open a terminal or command prompt and Navigate to the directory where ngrok is installed or accessible.
+  - To expose your locally hosted bot application to the internet, run the following command :  ``ngrok http 3000``
   This command tells ngrok to start a tunnel session on port 3000 (assuming your bot is running on this port locally). Ngrok will generate a forwarding URL (e.g.,https://c93f-2401-4900-1f38-8fff-00-14e-12b2.ngrok-free.app ) that will route requests to your local bot server.
     .. image:: ../images/create_bot_images/ngrok.png
       :alt: Ngrok url
       :width: 2000
-      :height: 200
+      :height: 100
       :align: left
 
 5. Setting Up Webhook URL
@@ -65,8 +66,8 @@ To use Ngrok,
 
    .. image:: ../images/create_bot_images/webhook.png
       :alt: Webhook using postman
-      :width: 1600
-      :height: 800
+      :width: 1500
+      :height: 300
       :align: left
 
    5. Send the request. This will update the webhook URL for your bot to the ngrok forwarding URL.
