@@ -5,7 +5,7 @@ Welcome to the SwiftChat Developer Documentation!
 .. image:: ../images/introduction_images/swiftchat.png
       :alt: introduction 
       :width: 1200
-      :height: 200
+      :height: 250
       :align: center
 
 This comprehensive guide empowers you to leverage SwiftChat's capabilities and craft exceptional chatbots. We'll navigate you through the entire process, from initial setup to deploying advanced chatbots in production environments.
