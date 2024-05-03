@@ -92,11 +92,23 @@ To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
    - Navigate to the Chatbot Starter Kit repository on GitHub: `Chatbot Starter Kit Repository <https://github.com/madgicaltechdom/chatbot-nestjs-boilerplate>`_
    - Click the "Fork" button located in the upper right corner of the repository page, and optionally rename the repository according to your preference. A recommended naming convention is **`<application name>-swift-chatbot`**. This action will generate a duplicate of the repository under your GitHub account.
 
+   .. image:: ../images/create_bot_images/fork_image.png
+   :alt: Create Fork Image
+   :width: 2000
+   :height: 250
+   :align: center
+
 3. **Clone the Repository:**
    
    - Access your terminal or command prompt.
    - Execute the subsequent command to clone the forked Chatbot Starter Kit repository: 
     ``git clone <Forked Repository Code>``
+
+     .. image:: ../images/create_bot_images/clone-id.png
+   :alt: Forked Repository Code
+   :width: 2000
+   :height: 250
+   :align: center
 
    - Following the cloning process, proceed to install dependencies by running following commands: 
   
@@ -125,8 +137,8 @@ The **src** folder is further organized into multiple subfolders and files. Plea
 
 .. image:: ../images/other_images/project_structure.png
    :alt: project_structure image
-   :width: 700
-   :height: 700
+   :width: 449
+   :height: 665
    :align: left
 
 
