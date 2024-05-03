@@ -51,8 +51,8 @@ To use Ngrok,
 This command tells ngrok to start a tunnel session on port 3000 (assuming your bot is running on this port locally). Ngrok will generate a forwarding URL (e.g.,https://c93f-2401-4900-1f38-8fff-00-14e-12b2.ngrok-free.app ) that will route requests to your local bot server.
     .. image:: ../images/create_bot_images/ngrok.png
       :alt: Ngrok url
-      :width: 2000
-      :height: 200
+      :width: 1471
+      :height: 657
       :align: left
 
 5. Setting Up Webhook URL
@@ -62,12 +62,13 @@ This command tells ngrok to start a tunnel session on port 3000 (assuming your b
    2. Choose the HTTP method as PUT.
    3. Set the request URL to : ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/webhook-url`` replacing <bot-id> with your bot Id.
    4. In the request body, specify the webhook URL: ``"webhook_url":"<forwarding-url>/<bot-api-endpoint>"``
+
    .. image:: ../images/create_bot_images/webhook.png
       :alt: Webhook using postman
-      :width: 2000
-      :height: 200
+      :width: 1772
+      :height: 669
       :align: left
-      
+
    5. Send the request. This will update the webhook URL for your bot to the ngrok forwarding URL.
  
  **Using curl (Command Line):**
