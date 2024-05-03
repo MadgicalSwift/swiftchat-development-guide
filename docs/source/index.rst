@@ -1,93 +1,44 @@
 .. image:: ../images/introduction_images/swiftchat.png
       :alt: introduction 
       :width: 1200
-      :height: 250
+      :height: 300
       :align: center
-This documentation will guide you to develop and publish your bots on Swiftchat, an indigenous and versatile platform to connect to a wide variety of audiences through chatbots. In this documentation guide, we'll provide you with the starter kit, code samples, and best practices, which will help you to develop new experiences for your audience.
 
-SwiftChat 
-====================
-SwiftChat, developed by ConveGenius Digital India Pvt Services Ltd, is a versatile platform for building, using, and discovering chatbots. Leveraging conversational interfaces, enables businesses, governments, and other entities to engage with consumers effectively. With its user and developer-focused components, SwiftChat offers a comprehensive solution for creating and deploying chatbots. The recent v2 release enhances discoverability, expands bot capabilities, and provides APIs for businesses, positioning SwiftChat as a pivotal tool for fostering customer-centric interactions and connection-building.
+Welcome to the SwiftChat documentation! This guide will walk you through the process of getting started with SwiftChat, creating chatbots, building advanced chatbots, and deploying your bots in production environments.
 
-Why to choose SwiftChat?
-=========================
-SwiftChat platform enables you to connect with thousands of users by creating a seamless digital presence without requiring users to install a separate application. The emerging platform currently serves over 200 million users from over 15 Indian States. It's a great opportunity to gain exposure to such a huge audience at an early stage to stay ahead of the competition. It has a richer User experience as compared to other messaging platforms such as WhatsApp, Telegram, X, etc. which will help to engage the audience with a wide variety of options.
+Getting Started with SwiftChat
+---------------------------------
+In this section, we'll guide you through the initial steps to begin using SwiftChat. We'll cover:
 
+1. **Signing Up and Logging In**: Get started by signing up for a SwiftChat account and logging in.
+2. **Creating a Merchant Account**: Learn how to create a merchant account to access SwiftChat's features and services.
+3. **Authentication API**: Explore how to use SwiftChat's authentication API to ensure secure access to your account.
+4. **Creating Your First Bot**: Follow a simple tutorial to create a "Hello World" bot and get familiar with the bot creation process.
 
-Key Features of SwiftChat
-=========================
+Building Advanced Chatbots
+------------------------------
+Now that you're comfortable with the basics, let's dive into building advanced chatbots on SwiftChat. In this section, we'll cover:
 
-#. **Supports a Wide Variety of Messages:**
-   
-   #. Text Message  
-   #. Document, Image, Video  
-   #. Video Stream  
-   #. Single/Multi-Select Buttons  
-   #. Card  
-   #. Article  
-   #. Rich Input Text  
-   #. Template Message  
-   #. Action Message  
-   #. Location  
-   #. Score Card
+1. **Preparation Steps**: Before creating your chatbot, we'll discuss essential preparatory steps such as creating an idea, analyzing your target audience, and creating a workflow for your bot.
+2. **Updating Your Starter Kit**: Learn how to update SwiftChat's starter kit according to your bot's workflow, ensuring a seamless development process.
+3. **Reducing OpenAI Costs**: Discover strategies for minimizing OpenAI costs while maintaining the efficiency and effectiveness of your chatbot.
+4. **Understanding Vector Databases**: Gain insights into the concept of vector databases and how they can enhance the performance of your chatbot.
+5. **Analytics Reporting**: Explore the importance of analytics reporting in tracking the performance of your chatbot and making data-driven improvements.
 
-#. **Send 'Posts' on Behalf of Bot to Engage Your Audience**
+Deploying Your Bot in Production
+------------------------------------
+Congratulations on creating your chatbot! Now it's time to deploy it to a production environment where it can start engaging with users. In this section, we'll discuss best practices for deploying your bot and ensuring its scalability and reliability.
 
-#. **Publish Mini Apps with Rich UI**
+Template: Bot Flow and Features
+--------------------------------
+In this section, we'll introduce you to various bot flows and their features that you can incorporate into your SwiftChat chatbots. Let's explore:
 
-Read more about these key features in detail: `here <https://swiftchat.ai/swiftchatapp/swiftchat-platform-for-end-users/>`_
+1. **Celebrity Bot**: Discover how to implement a celebrity bot that provides information and updates about popular personalities.
+2. **News Bot**: Learn how to create a news bot that delivers the latest news updates on various topics of interest.
+3. **Religious Bot**: Explore the features of a religious bot, which can provide users with spiritual guidance, prayers, and information about religious events.
 
+By incorporating these bot flows and features into your chatbots, you can enhance their functionality
 
-Prerequiste
-===========
-Before diving into developing and publishing bots on SwiftChat, ensure you have the following prerequisites:
-
-1. **SwiftChat Merchant Account:** You'll need a SwiftChat merchant account to access the platform's features and resources. Sign up for an account to get started with building and deploying your bots.
-
-2. **Knowledge of Programming Languages:** Familiarity with Nest.js is essential, as our starter kit is based on Nest.js. Additionally, you can use Python to create backend logics for your bots. Nest.js is a popular Node.js framework known for its scalability and modularity, while Python offers versatility and ease of use for various programming tasks.
-
-3. **Database Skills:** Understanding databases is crucial. You should be proficient in working with databases like MySQL and MongoDB. These skills will help you manage data efficiently within your chatbots.
-
-4. **Natural Language Processing (NLP):** Basic knowledge of Natural Language Processing (NLP) is beneficial. NLP is a field of artificial intelligence concerned with the interaction between computers and humans through natural language.
-
-5. **Familiar with AI Models:** Familiarity with OpenAI or open-source models is advantageous. These models can enhance the intelligence and capabilities of your chatbots, providing more engaging interactions with users.
-
-6. **AWS Deployment Skills:** For deployment purposes, you should have knowledge of AWS (Amazon Web Services) instances. Understanding how to deploy your applications on AWS instances ensures your bots are accessible to users reliably.
-
-By meeting these prerequisites, you'll be better equipped to leverage the SwiftChat platform effectively and develop engaging experiences for your audience.
-
-
-Use Cases 
-=========
-There are plenty of use cases where you can create your own bots such as:
-
-#. News Bots
-#. Celebrity Bots
-#. Religious Bots
-#. Counselling Bots
-#. Quiz and Games
-#. Notification and Alerts services in various sectors like Manufacturing, Hospitals, service corporates, etc.
-#. Games, etc.
-
-Demo Bots
-=========
-Explore our demo bots to get a glimpse of the engaging experiences you can create using SwiftChat:
-
-1. `Kabhri Media Bot <https://web.convegenius.ai/bots?botId=0206680915033769>`_ : Stay updated with the latest news and headlines with the Kabhri Media Bot. Get real-time news alerts, top stories, and in-depth articles delivered directly to your SwiftChat inbox.
-
-2. `Ramayan Bot <https://web.convegenius.ai/bots?botId=0240383727772053>`_:** Immerse yourself in the epic tale of Ramayan with the Ramayan Bot. Experience the timeless saga of Lord Rama, Sita, and Hanuman through interactive storytelling, quizzes, and rich multimedia content.
-
-3. `Bhagwad Gita Bot <https://web.convegenius.ai/bots?botId=0244938234521311>`_:** Delve into the spiritual teachings of the Bhagwad Gita with the Bhagwad Gita Bot. Receive daily verses, profound insights, and guided meditation sessions to nurture your spiritual journey.
-
-These demo bots showcase the versatility and capabilities of the SwiftChat platform, offering users unique and immersive experiences tailored to their interests. Experience the future of chatbot interactions with SwiftChat today!
-
-
-What You Will Achieve?
-======================
-By following this documentation, you will:
-
-1. Gain a solid understanding of chatbot development basics.
-2. Learn how to create and deploy your first chatbot onto SwiftChat.
 .. only:: not index 
    
    .. toctree::
@@ -115,6 +66,12 @@ By following this documentation, you will:
       cost_optimization.rst
       vector_database.rst
       analytics.rst
+   
+   .. toctree::
+      :caption: Best Practices
+      :hidden:
+      
+      best_practices.rst
    
    .. toctree::
       :caption: Bot Deployement
