@@ -48,10 +48,10 @@ This backend suffices for Rule-Based bots where natural language processing is u
 
 NLP Backend Services
 ^^^^^^^^^^^^^^^^^^^^^
-This module handles natural language queries using generative AI technologies such as `OpenAI <https://openai.com/>` or `open-source LLMs <https://huggingface.co/models>`. Its typical services include:
+This module handles natural language queries using generative AI technologies such as `OpenAI <https://openai.com/>`_ or `open-source LLMs <https://huggingface.co/models>`_. Its typical services include:
 
 - Ingesting and managing knowledge within the Vector database
-- Generating responses to queries posed in natural language using LLM services like `OpenAI <https://openai.com/>`.
+- Generating responses to queries posed in natural language using LLM services like `OpenAI <https://openai.com/>`_.
 - Caching results to optimize LLM service costs
 
 Database
@@ -92,11 +92,11 @@ To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
    - Navigate to the Chatbot Starter Kit repository on GitHub: `Chatbot Starter Kit Repository <https://github.com/madgicaltechdom/chatbot-nestjs-boilerplate>`_
    - Click the "Fork" button located in the upper right corner of the repository page, and optionally rename the repository according to your preference. A recommended naming convention is **`<application name>-swift-chatbot`**. This action will generate a duplicate of the repository under your GitHub account.
 
-   .. image:: ../images/create_bot_images/fork_image.png
-     :alt: Create Fork Image
-     :width: 1200
-     :height: 200
-     :align: center
+    .. image:: ../images/create_bot_images/fork_image.png
+      :alt: Create Fork Image
+      :width: 4000
+      :height: 400
+      :align: center
 
 3. **Clone the Repository:**
    
@@ -104,9 +104,9 @@ To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
    - Execute the subsequent command to clone the forked Chatbot Starter Kit repository: 
     ``git clone <Forked Repository Code>``
 
-     .. image:: ../images/create_bot_images/clone-id.png
+    .. image:: ../images/create_bot_images/clone-id.png
       :alt: Forked Repository Code
-      :width: 1400
+      :width: 3000
       :height: 300
       :align: center
 
