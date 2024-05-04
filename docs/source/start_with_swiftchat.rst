@@ -52,7 +52,7 @@ To obtain your API key and unlock access to the SwiftChat platform's features, y
    .. image:: ../images/installation_images/profile_settings.png
       :alt: login page 
       :width: 2000
-      :height: 350
+      :height: 250
       :align: left
 
 - In **Manage Account** page you will get the API key at the bottom of page. You can copy the API key from there or create a new one.
@@ -60,7 +60,7 @@ To obtain your API key and unlock access to the SwiftChat platform's features, y
    .. image:: ../images/installation_images/apiKey_page.png
       :alt: login page 
       :width: 3000
-      :height: 450
+      :height: 300
       :align: left
 
 
@@ -122,8 +122,8 @@ You can also create bot using your SwiftChat Merchant Dashboard
 
 .. image:: ../images/create_bot_images/add_bot.png
    :alt: Deployment Structure
-   :width: 2000
-   :height: 300
+   :width: 5000
+   :height: 250
    :align: center
 
 
