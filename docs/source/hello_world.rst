@@ -64,24 +64,25 @@ To use Ngrok,
    3. Set the request URL to : ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/webhook-url`` replacing <bot-id> with your bot Id.
    4. In the request body, specify the webhook URL: ``"webhook_url":"<forwarding-url>/<bot-api-endpoint>"``
 
-   .. image:: ../images/create_bot_images/webhook.png
-      :alt: Webhook using postman
-      :width: 1500
-      :height: 300
-      :align: left
+      .. image:: ../images/create_bot_images/webhook.png
+         :alt: Webhook using postman
+         :width: 7000
+         :height: 500
+         :align: left
 
    5. Send the request. This will update the webhook URL for your bot to the ngrok forwarding URL.
  
- **Using curl (Command Line):**
 
-  .. code-block:: html
+**Using curl (Command Line):**
+
+  .. code-block:: curl
 
       curl -X PUT \
      -H "Content-Type: application/json" \
      -d '{"webhook_url": "<forwarding-url>/<bot-api-endpoint>"}' \
      https://v1-api.swiftchat.ai/api/bots/<bot-id>/webhook-url`
 
-Replace '<forwarding-url>/<bot-api-endpoint>' with the actual forwarding-url and endpoint of your bot's API. This command sends a PUT request with the updated webhook URL to your bot's API endpoint, setting the ngrok forwarding URL as the webhook URL.
+- Replace '<forwarding-url>/<bot-api-endpoint>' with the actual forwarding-url and endpoint of your bot's API. This command sends a PUT request with the updated webhook URL to your bot's API endpoint, setting the ngrok forwarding URL as the webhook URL.
 
 Your bot is now ready, you can test it by visiting the bot URL and saying "hi". It'll print a welcome message as configured in the Chatbot Starter Kit. Now it's up to you, how you want to customize it.
 
