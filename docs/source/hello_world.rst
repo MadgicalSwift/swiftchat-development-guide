@@ -67,7 +67,7 @@ To use Ngrok,
       .. image:: ../images/create_bot_images/webhook.png
          :alt: Webhook using postman
          :width: 7000
-         :height: 500
+         :height: 300
          :align: left
 
    5. Send the request. This will update the webhook URL for your bot to the ngrok forwarding URL.
