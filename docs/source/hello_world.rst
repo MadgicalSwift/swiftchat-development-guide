@@ -77,7 +77,7 @@ To use Ngrok,
 
   .. code-block:: curl
 
-      curl -X PUT \
+     curl -X PUT \
      -H "Content-Type: application/json" \
      -d '{"webhook_url": "<forwarding-url>/<bot-api-endpoint>"}' \
      https://v1-api.swiftchat.ai/api/bots/<bot-id>/webhook-url`
