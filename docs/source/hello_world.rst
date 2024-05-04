@@ -48,11 +48,12 @@ To use Ngrok,
   - First, download ngrok from the `NGRok official website <https://ngrok.com/download>`_ 
   - Open a terminal or command prompt and Navigate to the directory where ngrok is installed or accessible.
   - To expose your locally hosted bot application to the internet, run the following command :  ``ngrok http 3000``
-  This command tells ngrok to start a tunnel session on port 3000 (assuming your bot is running on this port locally). Ngrok will generate a forwarding URL (e.g.,https://c93f-2401-4900-1f38-8fff-00-14e-12b2.ngrok-free.app ) that will route requests to your local bot server.
+  - This command tells ngrok to start a tunnel session on port 3000 (assuming your bot is running on this port locally). Ngrok will generate a forwarding URL (e.g.,https://c93f-2401-4900-1f38-8fff-00-14e-12b2.ngrok-free.app ) that will route requests to your local bot server.
+    
     .. image:: ../images/create_bot_images/ngrok.png
       :alt: Ngrok url
       :width: 2000
-      :height: 100
+      :height: 300
       :align: left
 
 5. Setting Up Webhook URL
