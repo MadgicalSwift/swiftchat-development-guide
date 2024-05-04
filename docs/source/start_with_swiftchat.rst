@@ -1,26 +1,26 @@
 Get started with swiftchat
 ==========================
 
-Registration on Swiftchat
+Registration on Swiftchat Merchant Account
 ------------
 
 Registration on SwiftChat is a simple process that allows users to create an account and access the platform's features. For registration follow these steps:
 
-1. Open the APP or website of `SwiftChat <https://web.convegenius.ai/>`_.
-2. On opening the App or website you will get the page to enter your phone number. Provide your number and generate the OTP.
+1. Open swiftchat `dashboard <https://dashboard.swiftchat.ai/register>`_.
+2. Upon accessing the website, you will encounter a page prompting you to input essential details, including your name, phone number, and password. Enter you details and continue with "Register now" option.
    
+   .. image:: ../images/installation_images/registration.png
+      :alt: login page 
+      :width: 2000
+      :height: 350
+      :align: center
+      
+3. Upon entering your details, you will receive an email for email verification. At this point, verify your email to proceed with the login steps.
+
    .. image:: ../images/installation_images/login.png
       :alt: login page 
       :width: 2000
-      :height: 250
-      :align: center
-      
-3. On generating the OTP, you will get the page to enter the OTP. Enter OTP and proceed with next steps.
-   
-   .. image:: ../images/installation_images/otp1.png
-      :alt: login page 
-      :width: 600
-      :height: 250
+      :height: 350
       :align: center
 
 4. Once OTP verification is completed, you'll be prompted to input additional details such as your name, state, preferred language, and more to finalize the registration process.
@@ -28,7 +28,7 @@ Registration on SwiftChat is a simple process that allows users to create an acc
 Following these steps will complete the registration process.
 
 
-Obtaining API keys
+Obtain API key
 ------------
 API keys are essential for authentication and accessing various features of the SwiftChat platform. They serve as a means of verifying your identity and ensuring secure communication between your application and the SwiftChat servers. Each API request you make to the SwiftChat platform must include your API key as part of the authentication process.
 

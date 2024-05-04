@@ -6,6 +6,7 @@ Introduction
       :width: 1200
       :height: 250
       :align: center
+
 This documentation will guide you to develop and publish your bots on Swiftchat, an indigenous and versatile platform to connect to a wide variety of audiences through chatbots. In this documentation guide, we'll provide you with the starter kit, code samples, and best practices, which will help you to develop new experiences for your audience.
 
 SwiftChat 
@@ -41,9 +42,9 @@ Key Features of SwiftChat
 Read more about these key features in detail: `here <https://swiftchat.ai/swiftchatapp/swiftchat-platform-for-end-users/>`_
 
 
-Prerequiste
+Prerequisite
 -----------
-Before diving into developing and publishing bots on SwiftChat, ensure you have the following prerequisites:
+Before delving into bot development on SwiftChat, let's first gain a brief overview of the necessary technology and other essential preparations to have at your disposal:
 
 1. **SwiftChat Merchant Account:** You'll need a SwiftChat merchant account to access the platform's features and resources. Sign up for an account to get started with building and deploying your bots.
 
@@ -62,7 +63,7 @@ By meeting these prerequisites, you'll be better equipped to leverage the SwiftC
 
 Use Cases 
 ---------
-There are plenty of use cases where you can create your own bots such as:
+Numerous scenarios exist where you can develop your own bots, encompassing a wide range of possibilities:
 
 #. News Bots
 #. Celebrity Bots
