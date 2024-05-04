@@ -64,7 +64,7 @@ To use Ngrok,
    3. Set the request URL to : ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/webhook-url`` replacing <bot-id> with your bot Id.
    4. In the request body, specify the webhook URL: ``"webhook_url":"<forwarding-url>/<bot-api-endpoint>"``
 
-      .. image:: ../images/create_bot_images/webhook.png
+      .. image:: ../images/create_bot_images/webhook_new.png
          :alt: Webhook using postman
          :width: 10000
          :height: 300
