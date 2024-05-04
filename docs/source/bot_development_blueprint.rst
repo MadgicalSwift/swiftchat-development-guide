@@ -20,7 +20,7 @@ Once you've defined your bot's purpose and identified your target audience, it's
 
 Take a look at the below example flow:--
    
-.. image:: ../images/other_images/button_response_body.png
+.. image:: ../images/create_bot_images/example_flow.png
         :alt: Deployment Structure
         :width: 1000
         :height: 500
