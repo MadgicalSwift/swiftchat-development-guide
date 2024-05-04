@@ -107,7 +107,7 @@ To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
     .. image:: ../images/create_bot_images/clone-id.png
       :alt: Forked Repository Code
       :width: 3000
-      :height: 400
+      :height: 350
       :align: center
 
    - Following the cloning process, proceed to install dependencies by running following commands: 
@@ -138,7 +138,7 @@ The **src** folder is further organized into multiple subfolders and files. Plea
 .. image:: ../images/other_images/project_structure.png
    :alt: project_structure image
    :width: 3000
-   :height: 500
+   :height: 1000
    :align: left
 
 
