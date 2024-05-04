@@ -17,3 +17,12 @@ Create Workflow of Bot
 -----------------------
 
 Once you've defined your bot's purpose and identified your target audience, it's time to map out its conversational flow. Designing a clear and intuitive workflow is essential for ensuring smooth interactions between users and your bot. Start by outlining the various paths users can take and defining the responses and actions your bot will provide at each step. Consider different scenarios and edge cases to create a robust framework that can handle diverse user inputs. By visualizing and refining your bot's workflow, you can create a seamless and enjoyable experience for users, guiding them towards their goals effectively.
+
+Take a look at the below example flow:--
+   
+.. image:: ../images/other_images/button_response_body.png
+        :alt: Deployment Structure
+        :width: 1000
+        :height: 500
+        :align: left  
+
