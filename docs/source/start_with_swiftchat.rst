@@ -51,7 +51,7 @@ To obtain your API key and unlock access to the SwiftChat platform's features, y
   
    .. image:: ../images/installation_images/profile_settings.png
       :alt: login page 
-      :width: 4000
+      :width: 2000
       :height: 350
       :align: left
 
@@ -59,7 +59,7 @@ To obtain your API key and unlock access to the SwiftChat platform's features, y
   
    .. image:: ../images/installation_images/apiKey_page.png
       :alt: login page 
-      :width: 4000
+      :width: 3000
       :height: 450
       :align: left
 
@@ -122,7 +122,7 @@ You can also create bot using your SwiftChat Merchant Dashboard
 
 .. image:: ../images/create_bot_images/add_bot.png
    :alt: Deployment Structure
-   :width: 4000
+   :width: 2000
    :height: 300
    :align: center
 
