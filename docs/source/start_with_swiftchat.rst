@@ -23,8 +23,10 @@ Registration on SwiftChat is a simple process that allows users to create an acc
       :height: 350
       :align: center
 
-4. Once OTP verification is completed, you'll be prompted to input additional details such as your name, state, preferred language, and more to finalize the registration process.
-   
+4. Following the login process, you may be prompted to complete the business KYC procedure.
+
+5. Upon successful KYC and login, you will gain access to the SwiftChat merchant dashboard. From here, you can create bots and obtain API keys as needed.
+
 Following these steps will complete the registration process.
 
 
@@ -49,16 +51,16 @@ To obtain your API key and unlock access to the SwiftChat platform's features, y
   
    .. image:: ../images/installation_images/profile_settings.png
       :alt: login page 
-      :width: 2000
-      :height: 250
+      :width: 4000
+      :height: 350
       :align: left
 
 - In **Manage Account** page you will get the API key at the bottom of page. You can copy the API key from there or create a new one.
   
    .. image:: ../images/installation_images/apiKey_page.png
       :alt: login page 
-      :width: 2000
-      :height: 250
+      :width: 4000
+      :height: 450
       :align: left
 
 
@@ -120,8 +122,8 @@ You can also create bot using your SwiftChat Merchant Dashboard
 
 .. image:: ../images/create_bot_images/add_bot.png
    :alt: Deployment Structure
-   :width: 2000
-   :height: 200
+   :width: 4000
+   :height: 300
    :align: center
 
 
@@ -129,8 +131,8 @@ You can also create bot using your SwiftChat Merchant Dashboard
 
 .. image:: ../images/create_bot_images/bot_detail.png
    :alt: Deployment Structure
-   :width: 2000
-   :height: 300
+   :width: 4000
+   :height: 500
    :align: center
 
 
