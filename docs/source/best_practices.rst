@@ -9,7 +9,7 @@ Best Practices
 
       .. image:: ../images/best_practices/feedback.png
        :alt: Feedback and Confirmation
-       :width: 1500
+       :width: 1200
        :height: 300
        :align: left
 
@@ -21,7 +21,7 @@ Best Practices
 
        .. image:: ../images/best_practices/visual_elements.png
         :alt: Visual Elements
-        :width: 1500
+        :width: 1200
         :height: 300
         :align: left
 
@@ -29,7 +29,7 @@ Best Practices
 
       .. image:: ../images/best_practices/fallback.png
        :alt: Fallback Options
-       :width: 1500
+       :width: 1200
        :height: 300
        :align: left
 
