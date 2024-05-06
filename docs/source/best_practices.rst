@@ -34,6 +34,13 @@ Best Practices
 
 **Testing and Iteration:** Continuously test the chatbot with real users to identify areas for improvement. Collect feedback and iterate on the design to enhance usability and effectiveness over time.
 
+**Multilingual Support:** Incorporate multilingual capabilities to cater to diverse user demographics. Enable the chatbot to understand and respond in different languages based on user preferences.
+        .. image:: ../images/best_practices/language.png
+         :alt: /Multilingual support
+         :width: 2000
+         :height: 300
+         :align: left
+
 **Accessibility:** Design the chatbot interface to be accessible to users with disabilities. Ensure compatibility with screen readers, keyboard navigation, and other assistive technologies.
 
 **Cross-Platform Compatibility:** Ensure that the chatbot interface works seamlessly across various devices and platforms, including web browsers, mobile apps, and messaging platforms.
