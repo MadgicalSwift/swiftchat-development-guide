@@ -6,9 +6,10 @@ Best Practices
 **Natural Language Understanding (NLU):** Implement robust NLU capabilities to accurately interpret user input. This ensures that the chatbot can understand various phrasings of the same query.
 
 **Feedback and Confirmation:** Provide immediate feedback to users upon receiving their input. Confirm actions taken by the chatbot to reassure users that their requests are being processed.
+
       .. image:: ../images/best_practices/feedback.png
        :alt: Feedback and Confirmation
-       :width: 2000
+       :width: 1500
        :height: 300
        :align: left
 
@@ -17,16 +18,18 @@ Best Practices
 **Personalization:** Tailor responses and recommendations based on user preferences, history, or demographic information whenever possible. Personalization enhances user experience and engagement.
 
 **Visual Elements:** Incorporate visual elements, such as buttons, menus, and images, to supplement text-based interactions. Visual cues can help users navigate the conversation more easily.
+
        .. image:: ../images/best_practices/visual_elements.png
         :alt: Visual Elements
-        :width: 2000
+        :width: 1500
         :height: 300
         :align: left
 
 **Fallback Options:** Include fallback options for cases when the chatbot cannot understand or fulfill a user request. Provide alternative suggestions or escalate to human support if necessary.
+
       .. image:: ../images/best_practices/fallback.png
        :alt: Fallback Options
-       :width: 2000
+       :width: 1500
        :height: 300
        :align: left
 
@@ -35,9 +38,10 @@ Best Practices
 **Testing and Iteration:** Continuously test the chatbot with real users to identify areas for improvement. Collect feedback and iterate on the design to enhance usability and effectiveness over time.
 
 **Multilingual Support:** Incorporate multilingual capabilities to cater to diverse user demographics. Enable the chatbot to understand and respond in different languages based on user preferences.
+
         .. image:: ../images/best_practices/language.png
          :alt: /Multilingual support
-         :width: 2000
+         :width: 1500
          :height: 300
          :align: left
 
