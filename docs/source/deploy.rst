@@ -84,42 +84,42 @@ These options allow you to effectively include the .env file in your project dir
     ``sudo vi /etc/nginx/sites-enabled/default``
 
    - Paste the following configuration into the file:
-  
-.. code-block:: nginx
+      
+      .. code-block:: nginx
 
-        root /usr/share/nginx/html;
+            root /usr/share/nginx/html;
 
-        # Add index.php to the list if you are using PHP
-        index index.html index.htm index.nginx-debian.html;
+            # Add index.php to the list if you are using PHP
+            index index.html index.htm index.nginx-debian.html;
 
-        server_name localhost;
+            server_name localhost;
 
-        location / {
-                # First attempt to serve request as file, then
-                # as directory, then fall back to displaying a 404.
-                # try_files $uri $uri/ =404;
-                proxy_pass http://127.0.0.1:3000;
-                proxy_http_version 1.1;
-                proxy_set_header Upgrade $http_upgrade;
-                proxy_set_header Connection 'upgrade';
-                proxy_set_header Host $host;
-                proxy_cache_bypass $http_upgrade;
-        }
+            location / {
+                     # First attempt to serve request as file, then
+                     # as directory, then fall back to displaying a 404.
+                     # try_files $uri $uri/ =404;
+                     proxy_pass http://127.0.0.1:3000;
+                     proxy_http_version 1.1;
+                     proxy_set_header Upgrade $http_upgrade;
+                     proxy_set_header Connection 'upgrade';
+                     proxy_set_header Host $host;
+                     proxy_cache_bypass $http_upgrade;
+            }
 
 -----------------
         
 
-- Start nginx server: ``sudo service nginx start``
-- Start your application server:
-  
-  - Go to the project root folder where repository cloned
-    ``cd ~/khabri-meda``
+   - Start nginx server: ``sudo service nginx start``
+   - Start your application server:
+   
+   - Go to the project root folder where repository cloned
+      ``cd ~/khabri-meda``
 
-  - Install dependencies
-    ``npm install``
+   - Install dependencies
+      ``npm install``
 
-  - Start application server via PM2:
-    ``pm2 --name <bot Name> start npm -- start``
+   - Start application server via PM2:
+      ``pm2 --name <bot Name> start npm -- start``
 
 6. **Test whether your server is running:** Hit the host-ip address or domain name of the EC2 instance in the browser. 
    
