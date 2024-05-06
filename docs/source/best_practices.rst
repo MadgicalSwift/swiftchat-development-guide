@@ -25,12 +25,14 @@ Best Practices
         :height: 300
         :align: left
 
+**Real-Time Analytics**: Integrate real-time analytics to monitor chatbot performance and user behavior. Leverage data insights to continuously improve the chatbot's effectiveness and user experience.
+
 **Fallback Options:** Include fallback options for cases when the chatbot cannot understand or fulfill a user request. Provide alternative suggestions or escalate to human support if necessary.
 
       .. image:: ../images/best_practices/fallback.png
        :alt: Fallback Options
        :width: 1200
-       :height: 300
+       :height: 500
        :align: left
 
 **Human Handoff:** Offer seamless transitions to human agents when the chatbot encounters complex queries or fails to resolve user issues. Ensure smooth integration between automated and human support channels.
