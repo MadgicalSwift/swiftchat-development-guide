@@ -84,12 +84,6 @@ By incorporating these bot flows and features into your chatbots, you can enhanc
       analytics.rst
    
    .. toctree::
-      :caption: Best Practices
-      :hidden:
-      
-      best_practices.rst
-   
-   .. toctree::
       :caption: Bot Deployement
       :hidden:
 
@@ -108,6 +102,12 @@ By incorporating these bot flows and features into your chatbots, you can enhanc
       :hidden:
 
       template_api.rst
+
+   .. toctree::
+      :caption: Best Practices
+      :hidden:
+      
+      best_practices.rst
 
   .. toctree::
       :caption: resources
