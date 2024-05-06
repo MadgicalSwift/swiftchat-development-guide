@@ -32,11 +32,12 @@ Steps to deploy
    - Configure the MySQL root password:
       ``sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'mypassword';``
 
-.. note::
-    If you are using AWS RDS, create a new user and grant all permissions. These credentials will be used when setting up the .env file later.
-
 .. tip::
     If the root password does not change using the command above, follow the instructions provided `here <https://stackoverflow.com/questions/42421585/default-password-of-mysql-in-ubuntu-server-16-04>`_.
+
+
+.. note::
+    If you are using AWS RDS, create a new user and grant all permissions. These credentials will be used when setting up the .env file later.
 
 
 4. **Update .env file:** To include the .env file in the cloned project root directory, you have two options:
@@ -105,8 +106,6 @@ These options allow you to effectively include the .env file in your project dir
                   proxy_set_header Host $host;
                   proxy_cache_bypass $http_upgrade;
          }
-
-      -----------------
         
 
    - Start nginx server: ``sudo service nginx start``
