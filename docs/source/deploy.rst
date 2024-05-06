@@ -85,28 +85,28 @@ These options allow you to effectively include the .env file in your project dir
 
    - Paste the following configuration into the file:
       
-      .. code-block:: nginx
+   .. code-block:: nginx
 
-            root /usr/share/nginx/html;
+         root /usr/share/nginx/html;
 
-            # Add index.php to the list if you are using PHP
-            index index.html index.htm index.nginx-debian.html;
+         # Add index.php to the list if you are using PHP
+         index index.html index.htm index.nginx-debian.html;
 
-            server_name localhost;
+         server_name localhost;
 
-            location / {
-                     # First attempt to serve request as file, then
-                     # as directory, then fall back to displaying a 404.
-                     # try_files $uri $uri/ =404;
-                     proxy_pass http://127.0.0.1:3000;
-                     proxy_http_version 1.1;
-                     proxy_set_header Upgrade $http_upgrade;
-                     proxy_set_header Connection 'upgrade';
-                     proxy_set_header Host $host;
-                     proxy_cache_bypass $http_upgrade;
-            }
+         location / {
+                  # First attempt to serve request as file, then
+                  # as directory, then fall back to displaying a 404.
+                  # try_files $uri $uri/ =404;
+                  proxy_pass http://127.0.0.1:3000;
+                  proxy_http_version 1.1;
+                  proxy_set_header Upgrade $http_upgrade;
+                  proxy_set_header Connection 'upgrade';
+                  proxy_set_header Host $host;
+                  proxy_cache_bypass $http_upgrade;
+         }
 
------------------
+      -----------------
         
 
    - Start nginx server: ``sudo service nginx start``
@@ -137,6 +137,7 @@ To set up a webhook on the Swift Chatbot Developer Portal after setting up your 
 
 - In the app settings, find the section for entering the webhook URL. Enter the following URL:
   ``http://<EC2 host IP address or domain name>/user``
+  
   - For example:
    
    ``http://ec2-3-110-217-147.ap-south-1.compute.amazonaws.com/user``
