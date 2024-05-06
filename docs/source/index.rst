@@ -102,8 +102,9 @@ By incorporating these bot flows and features into your chatbots, you can enhanc
       :hidden:
 
       template_api.rst
+      
 
-   .. toctree::
+  .. toctree::
       :caption: Best Practices
       :hidden:
       
