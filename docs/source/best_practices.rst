@@ -6,14 +6,29 @@ Best Practices
 **Natural Language Understanding (NLU):** Implement robust NLU capabilities to accurately interpret user input. This ensures that the chatbot can understand various phrasings of the same query.
 
 **Feedback and Confirmation:** Provide immediate feedback to users upon receiving their input. Confirm actions taken by the chatbot to reassure users that their requests are being processed.
+      .. image:: ../images/best_practices/feedback.png
+       :alt: Feedback and Confirmation
+       :width: 2000
+       :height: 300
+       :align: left
 
 **Progress Indicators:** For multi-step processes, such as form filling or complex tasks, include progress indicators to inform users about their current position within the conversation flow.
 
 **Personalization:** Tailor responses and recommendations based on user preferences, history, or demographic information whenever possible. Personalization enhances user experience and engagement.
 
 **Visual Elements:** Incorporate visual elements, such as buttons, menus, and images, to supplement text-based interactions. Visual cues can help users navigate the conversation more easily.
+       .. image:: ../images/best_practices/visual_elements.png
+        :alt: Visual Elements
+        :width: 2000
+        :height: 300
+        :align: left
 
 **Fallback Options:** Include fallback options for cases when the chatbot cannot understand or fulfill a user request. Provide alternative suggestions or escalate to human support if necessary.
+      .. image:: ../images/best_practices/fallback.png
+       :alt: Fallback Options
+       :width: 2000
+       :height: 300
+       :align: left
 
 **Human Handoff:** Offer seamless transitions to human agents when the chatbot encounters complex queries or fails to resolve user issues. Ensure smooth integration between automated and human support channels.
 
