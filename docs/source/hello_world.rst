@@ -88,21 +88,22 @@ To use Ngrok,
 6.  Start Your Bot
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To get your bot up and running after setting up the Chatbot Starter Kit and making necessary configurations, follow these steps:
-    - **Navigate to Your Project Directory:** Open your terminal or command prompt and change directory (cd) into the directory where you cloned the Chatbot Starter Kit repository.
-    - **Install Dependencies:** Run the command ``npm install`` in your terminal. This command will install all the required dependencies for your bot based on the package.json file in the project.
-    - **Start the Bot Locally:** Once all dependencies are installed, start your bot locally by running ``npm run start`` in the terminal. This command will execute the start script specified in the package.json file, which typically launches your bot's server.
 
-    .. image:: ../images/other_images/startbot.png
-      :alt: Start the bot
-      :width: 2000
-      :height: 300
-      :align: left
+   - **Navigate to Your Project Directory:** Open your terminal or command prompt and change directory (cd) into the directory where you cloned the Chatbot Starter Kit repository.
+   - **Install Dependencies:** Run the command ``npm install`` in your terminal. This command will install all the required dependencies for your bot based on the package.json file in the project.
+   - **Start the Bot Locally:** Once all dependencies are installed, start your bot locally by running ``npm run start`` in the terminal. This command will execute the start script specified in the package.json file, which typically launches your bot's server.
+
+      .. image:: ../images/other_images/startbot.png
+         :alt: Start the bot
+         :width: 3000
+         :height: 350
+         :align: left
 
 Your bot is now ready, you can test it by visiting the bot URL and saying "hi". It'll print a welcome message as configured in the Chatbot Starter Kit. Now it's up to you, how you want to customize it.
 
  .. image:: ../images/other_images/first_msg.png
       :alt: Hello World
       :width: 1200
-      :height: 300
+      :height: 200
       :align: left
 
