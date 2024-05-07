@@ -22,7 +22,7 @@ Best Practices
        .. image:: ../images/best_practices/visual_elements.png
         :alt: Visual Elements
         :width: 1200
-        :height: 300
+        :height: 350
         :align: left
 
 **Real-Time Analytics**: Integrate real-time analytics to monitor chatbot performance and user behavior. Leverage data insights to continuously improve the chatbot's effectiveness and user experience.
