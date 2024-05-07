@@ -103,7 +103,7 @@ Your bot is now ready, you can test it by visiting the bot URL and saying "hi". 
 
  .. image:: ../images/other_images/first_msg.png
       :alt: Hello World
-      :width: 2000
-      :height: 200
+      :width: 5000
+      :height: 150
       :align: left
 
