@@ -123,7 +123,7 @@ You can also create bot using your SwiftChat Merchant Dashboard
 .. image:: ../images/create_bot_images/add_bot.png
    :alt: Deployment Structure
    :width: 18000
-   :height: 300
+   :height: 150
    :align: center
 
 
